@@ -1,0 +1,23 @@
+{
+	"name": "coin_value_bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"dev": "NODE_ENV=dev nodemon index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.21.1",
+		"ccxt": "^1.49.60",
+		"node-telegram-bot-api": "^0.53.0",
+		"sqlite": "^4.0.22",
+		"sqlite3": "^5.0.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.7"
+	}
+}
